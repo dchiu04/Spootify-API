@@ -4,5 +4,7 @@ Spootify API is a web api which allows users to add and search for their favouri
 
 <b>Documentation can be found inside dir: documentation/documentation.html</b>
 
-The raw JSON requests can be found here: https://dry-sea-70637.herokuapp.com/
+<p>The raw JSON requests can be found here: https://dry-sea-70637.herokuapp.com/
+
 Using commands such as https://dry-sea-70637.herokuapp.com/music will show all music saved to the database.
+</p>
