@@ -1,0 +1,15 @@
+
+
+form {
+    width: 500px;
+    
+}
+
+#login_wrapper {
+    height: 800px;
+}
+
+
+input::placeholder {
+    color: white;
+}

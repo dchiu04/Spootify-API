@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>spootify</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='../css/login.css'>
+  <link rel='stylesheet' type='text/css' media='screen' href='../css/style.css'>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <div class="wrapper h-100 mask rgba-gradient">
+    <nav class="navbar navbar-dark shadow p-3">
+      <ul class="nav navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="login.html">Sign in</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="nav-account" href="../../documentation/documentation.html">Documentation</a>
+      </li>
+    </nav>
+    <!--  -->
+    <div id="login_wrapper" class="d-flex align-self-center">
+
+      <div id="login_container" class="d-inline-flex w-100 justify-content-center align-self-center">
+        <div class="text-center border border-light p-5">
+          <p class="h4 mb-4" id="sign-up-header">Sign Up</p><p class="h4 mb-4 d-none" id="sign-in-header">Sign in</p>
+
+        <input type="text" id="uname" name="uname" class="form-control mb-4" placeholder="Enter Username">
+        <div class="un-msg d-none" id="un-msg"></div>
+
+        <input type="password" class="form-control mb-4" id="psw" placeholder="Enter Password" name="psw" required>
+        <div class="pwd-msg d-none" id="pwd-msg"></div>
+        <div>
+        <button class="btn btn-info btn-block my-4" type="submit" id="sign_up_submit">Sign up</button>
+        <button type="submit" class="btn btn-info btn-block my-4">Cancel</button>
+        <button class="btn btn-info btn-block my-4" type="submit" id="sign_in_submit">Sign in</button>
+        </div>
+      </div>
+    </div>
+    
+    </div>
+  </div>
+  </div>
+  <script src="../js/login.js"></script>
+  <script src="../js/data_controller.js"></script>
+</body>
+
+</html>
